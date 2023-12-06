@@ -3,10 +3,44 @@
     box-sizing:border-box;
 }
 body{
-    background-color:cornsilk;
+    background-color:rgb(26, 28, 78);
+    width: 100vw;
+    height: 100vh;
 }
 .my-header{
-    background-color:rgb(218, 188, 72);
+    background-color:rgb(70, 69, 156);
     height: 100px;
+    border: 2px solid rgb(1, 1, 36);
+}
+.bigbox1{
+    background-image: url("https://cdn.pixabay.com/photo/2015/08/27/12/55/background-910412_1280.jpg");
+    background-size: 100%;
     border: 2px solid black;
+    height: 400px;
+    display: flex;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}
+.ielogošanāslauks{
+    background-color: rgb(223, 215, 232);
+    height: 20vw;
+    border: 20vh;
+    border-radius: 10%;
+}
+.smallbox2,
+.smallbox3,
+.smallbox4,
+.smallbox5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(1, 1, 36);
+    background-color: beige;
+    margin: 20px;
+}
+.smallbox2{
+   align-items: center;
+   
 }
